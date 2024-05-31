@@ -3,7 +3,11 @@ venv
 
 # Cache
 basketball_monitoring_system/__pycache__
-tournament/__pycache__
-tournament/migrations/__pycache__
+games/__pycache__
+games/migrations/__pycache__
+logins/__pycache__
+logins/migrations/__pycache__
+teams/__pycache__
+teams/migrations/__pycache__
 users/__pycache__
 users/migrations/__pycache__

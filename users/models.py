@@ -7,6 +7,6 @@ class User(AbstractUser):
         ('coach', 'Coach'),
         ('player', 'Player'),
     ]
-    role = models.CharField(max_length=10, choices=ROLE_CHOICES, default='player')
+    role = models.CharField(max_length=10, choices=ROLE_CHOICES)
     last_login = models.DateTimeField(null=True, blank=True)
     total_time_spent = models.PositiveBigIntegerField(default=0) # going to be in minutes
