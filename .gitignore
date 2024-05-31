@@ -11,3 +11,5 @@ teams/__pycache__
 teams/migrations/__pycache__
 users/__pycache__
 users/migrations/__pycache__
+players/__pycache__
+players/migrations/__pycache__
