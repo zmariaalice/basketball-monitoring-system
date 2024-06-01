@@ -8,13 +8,61 @@ asgiref==3.8.1
     # via
     #   -r requirements.in
     #   django
-django==5.0.6
+black==24.4.2
     # via -r requirements.in
+build==1.2.1
+    # via
+    #   -r requirements.in
+    #   pip-tools
+click==8.1.7
+    # via
+    #   -r requirements.in
+    #   black
+    #   pip-tools
+django==5.0.6
+    # via
+    #   -r requirements.in
+    #   djangorestframework
+djangorestframework==3.15.1
+    # via -r requirements.in
+mypy-extensions==1.0.0
+    # via
+    #   -r requirements.in
+    #   black
+packaging==24.0
+    # via
+    #   -r requirements.in
+    #   black
+    #   build
+pathspec==0.12.1
+    # via
+    #   -r requirements.in
+    #   black
+pip-tools==7.4.1
+    # via -r requirements.in
+platformdirs==4.2.2
+    # via
+    #   -r requirements.in
+    #   black
+pyproject-hooks==1.1.0
+    # via
+    #   -r requirements.in
+    #   build
+    #   pip-tools
 sqlparse==0.5.0
     # via
     #   -r requirements.in
     #   django
+tomli==2.0.1
+    # via
+    #   -r requirements.in
+    #   black
+    #   build
+    #   pip-tools
 typing-extensions==4.12.0
     # via
     #   -r requirements.in
     #   asgiref
+    #   black
+wheel==0.43.0
+    # via pip-tools
