@@ -64,6 +64,13 @@ Create a Team is only available in [text](http://127.0.0.1:8000/admin/teams/team
 You can crate a superuser by command line or by create by insomnia
 </h3>
 
+<h3>Run the tests</h3>
+python manage.py test users.tests
+python manage.py test teams.tests
+python manage.py test players.tests
+python manage.py test logins.tests
+python manage.py test games.tests
+
 <h3> Dummy Data</h3>
 
 The dummy data was generated using the Python Faker library. It is available in the data.py file.
