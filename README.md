@@ -65,17 +65,20 @@ Users
 
 Create a Team 
 
-    is only available in http://127.0.0.1:8000/admin/teams/team/add/ 
-    whe you are did the coach registration.
+    Create a team is only available in http://127.0.0.1:8000/admin/teams/team/add/ 
+    When you are did the coach registration.
     You can crate a superuser by command line or by create by insomnia
 </h3>
 
 <h3>Run the tests</h3>
+
+```bash
 python manage.py test users.tests
 python manage.py test teams.tests
 python manage.py test players.tests
 python manage.py test logins.tests
 python manage.py test games.tests
+```
 
 <h3> Dummy Data</h3>
 
