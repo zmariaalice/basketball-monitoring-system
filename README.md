@@ -40,6 +40,7 @@ Games
     Detail: /games/<int:pk>/ - List one game
 
 Logins
+
     List/Create: /logins/ - List all Logins and Can Logoff the user
     Detail: /logins/<int:pk>/ - List One Detail Login
 
