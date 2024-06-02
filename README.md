@@ -64,7 +64,9 @@ Users
 
 
 Create a Team 
-    is only available in http://127.0.0.1:8000/admin/teams/team/add/ whe you are did the coach registration
+
+    is only available in http://127.0.0.1:8000/admin/teams/team/add/ 
+    whe you are did the coach registration.
     You can crate a superuser by command line or by create by insomnia
 </h3>
 
