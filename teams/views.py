@@ -13,6 +13,7 @@ class TeamListCreateView(generics.ListCreateAPIView):
 class TeamDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
+    lookup_field = 'team_id'
 
 
 class TeamPlayersListView(generics.ListAPIView):

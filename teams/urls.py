@@ -3,7 +3,7 @@ from .views import TeamListCreateView, TeamDetailView, TeamPlayersListView, TopP
 
 urlpatterns = [
     path('', TeamListCreateView.as_view(), name='team-list-create'),
-    path('<int:pk>/', TeamDetailView.as_view(), name='team-detail'),
+    path('<int:team_id>/', TeamDetailView.as_view(), name='team-detail'),
     path('<int:team_id>/players/', TeamPlayersListView.as_view(), name='team-players-list'),
     path('<int:team_id>/top-players/', TopPlayersListView.as_view(), name='top-players-list'),
 ]
