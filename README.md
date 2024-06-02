@@ -60,7 +60,7 @@ Users
     List/Create: /users/ - List all the users and can create a user
     Detail: /users/<int:pk>/ - List one specific user
 
-Create a Team is only available in [text](http://127.0.0.1:8000/admin/teams/team/add/)
+Create a Team is only available in [text](http://127.0.0.1:8000/admin/teams/team/add/) whe you are did the coach registration
 You can crate a superuser by command line or by create by insomnia
 </h3>
 

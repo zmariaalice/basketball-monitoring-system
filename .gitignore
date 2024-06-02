@@ -2,6 +2,7 @@
 venv
 
 # Cache
+__pycache__/test.cpython-310.pyc
 basketball_monitoring_system/__pycache__
 games/__pycache__
 games/migrations/__pycache__
