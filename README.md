@@ -36,6 +36,7 @@ The server will start and be accessible at http://localhost:8000/.
 
 <h3>
 Games
+
     List/Create: /games/ - List all games and can create a game
     Detail: /games/<int:pk>/ - List one game
 
